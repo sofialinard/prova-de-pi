@@ -9,7 +9,9 @@ def cadastro():
      idade = request.form.get('idade')
      email = request.form.get('email')
      curso = request.form.get('curso')
+     CPF = request.form.get('CPF')
 
      return render_template('sucesso.html')
 if __name__ == '__main__':
      app.run(debug=True)
+
